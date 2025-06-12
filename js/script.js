@@ -1,14 +1,15 @@
 // Navbar Part Start 
 
-let homePart = document.getElementById("homePart")
-let aboutPart = document.getElementById("aboutPart")
-let portfolioPart = document.getElementById("portfolioPart")
-let contactPart = document.getElementById("contactPart")
+  const menuBtn = document.getElementById("menuBtn");
+  const manuList = document.getElementById("manuList");
 
-homePart.addEventListener("click", function(){
-    homePart.before.style.display = "block"
-})
+  menuBtn.addEventListener("click",() =>{
+    manuList.classList.toggle("hidden");
+  })
+    
 
+
+    
 // Navbar Part End
 
 
