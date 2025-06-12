@@ -1,0 +1,23 @@
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+
+    /* Containet Part Start  */
+    --spacing-myContainer: 1170px; 
+
+    /* Containet Part End */
+
+    /* Color Part Start  */
+    
+    /* Color Part End */
+
+    /* google fonts Part Start  */
+    --font-poppins: "Poppins", "sans-serif"; 
+    --font-roboto: "Roboto", "sans-serif"; 
+    /* google fonts Part End */
+
+
+}
+ 
