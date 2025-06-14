@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="src/output.css">
     <!-- All Css Part File Link End -->
 </head>
-<body class="scroll-smooth bg-black ">
+<body id="bodyPart" class="scroll-smooth bg-gray-800">
    
     <section id="headerPart">
         <div class="w-full fixed left-0 right-0 z-[1111] bg-black">
@@ -37,7 +37,7 @@
                     <li><a class="hover:text-red-500" href="#aboutPart">About</a></li>
                     <li><a class="hover:text-red-500" href="#portfolioPart">Portfolio</a></li>
                     <li><a class="hover:text-red-500" href="#contactPart">Contact</a></li>
-                    <button class="text-2xl mr-7 text-white lg:ml-10"><i class="fa-solid fa-moon"></i></button>
+                    <button id="darkMode" class="text-2xl mr-7 text-white lg:ml-10 cursor-pointer"><i class="fa-solid fa-moon"></i></button>
                     </ul>
                 </div>
                    <div class="">
@@ -55,17 +55,17 @@
         <div class=" max-w-myContainer m-auto">
             <div class="lg:flex lg:justify-between">
                 <div class="pt-[150px] p-5">
-                    <h3 class="text-xl lg:text-2xl font-semibold text-white font-poppins">INTRODUCTION</h3>
-                    <h1 class="lg:w-[660px] text-5xl lg:text-7xl text-white font-bold font-roboto pt-5">I'am Titu Sarkar <span class="text-6xl bg-gradient-to-r from-[#00cfff] via-[#7d7db4] to-[#ff5f6d] bg-clip-text text-transparent">Marn Stack Developer</span></h1>
-                    <p class="lg:w-[620px] text-lg font-roboto font-medium text-gray-400 pt-7">I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface and meaningful interactions.</p>
+                    <h3 class="text-xl lg:text-2xl text-white font-semibold font-poppins">INTRODUCTION</h3>
+                    <h1 class="lg:w-[660px] text-5xl text-white lg:text-7xl font-bold font-roboto pt-5">I'am Titu Sarkar <span class="text-6xl bg-gradient-to-r from-[#00cfff] via-[#7d7db4] to-[#ff5f6d] bg-clip-text text-transparent">Marn Stack Developer</span></h1>
+                    <p class="lg:w-[620px] text-lg font-poppins text-gray-400 pt-7">I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface and meaningful interactions.</p>
                     <div class="pt-12 flex">
                         <div class="w-[100px]">
-                            <h4 class="text-4xl font-bold text-white">1+</h4>
-                            <h5 class="text-lg font-medium font-roboto text-gray-400 pt-3">YEARS OF EXPERIENCE</h5>
+                            <h4 id="homeText" class="text-4xl font-bold text-white">1+</h4>
+                            <h5 class="text-lg  font-poppins text-gray-400 pt-3">YEARS OF EXPERIENCE</h5>
                         </div>
                         <div class="w-[100px] ml-14">
                             <h4 class="text-4xl font-bold text-white">90+</h4>
-                            <h5 class="text-lg font-medium font-roboto text-gray-400 pt-3">PROJECTS COMPLETED</h5>
+                            <h5 class="text-lg  font-poppins text-gray-400 pt-3">PROJECTS COMPLETED</h5>
                         </div>
                     </div>
                 </div>
@@ -115,17 +115,17 @@
                     
                 </div>
                 <div class="m-auto lg:w-[550px] px-2">
-                    <h3 class="pt-5 lg:pt-0 text-3xl text-white font-poppins font-semibold pb-7">Education</h3>
+                    <h3 id="homeText" class="pt-5 lg:pt-0 text-3xl text-white font-poppins font-semibold pb-7">Education</h3>
                     <div class="lg:flex lg:justify-between px-5 lg:px-0">
                         <div class="lg:w-[260px]">
-                            <h4 class="text-lg lg:text-xl font-roboto text-gray-400">Diploma in Engineering</h4>
-                            <h4 class="text-lg lg:text-xl font-roboto text-gray-400">Hobigonj Polytechnic Institute</h4>
-                            <h4 class="text-lg lg:text-xl font-roboto text-gray-400">Session: 2020-2021</h4>
+                            <h4 class="text-lg font-poppins text-gray-400">Diploma in Engineering</h4>
+                            <h4 class="text-lg font-poppins text-gray-400">Hobigonj Polytechnic Institute</h4>
+                            <h4 class="text-lg font-poppins text-gray-400">Session: 2020-2021</h4>
                         </div>
                         <div class="lg:w-[260px]">
-                            <h3 class="text-lg lg:text-xl font-roboto text-gray-400">Creative It Institute</h3>
-                            <h4 class="text-lg lg:text-xl font-roboto text-gray-400">Marn Stack Development</h4>
-                            <h4 class="text-lg lg:text-xl font-roboto text-gray-400">Batch: 2407</h4>
+                            <h3 class="text-lg font-poppins text-gray-400">Creative It Institute</h3>
+                            <h4 class="text-lg font-poppins text-gray-400">Marn Stack Development</h4>
+                            <h4 class="text-lg font-poppins text-gray-400">Batch: 2407</h4>
                         </div>
                     </div>
                     <h3 class="text-3xl font-semibold font-poppins text-white py-7">Competences</h3>
@@ -300,6 +300,14 @@
         </div>
     </section>
     <!-- .....................................Fotter Part End.................................. -->
+
+
+    <!-- back To Top Part Start  -->
+
+    <div id="backTop" class="hidden right-4 bottom-4 fixed bg-green-600 text-2xl text-white py-2 px-3 rounded-xl">
+        <a href="#"><i class="fa-solid fa-angles-up"></i></a>
+    </div>
+    <!-- back To Top Part End -->
 
     <script src="js/script.js"></script>
 </body>

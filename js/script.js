@@ -44,3 +44,59 @@ arr.map((item)=>{
 
 
 // About Part Are Counter up End  
+
+
+
+
+
+//********************************* */ Withe Part Start ************************************************
+
+let bodyPart = document.getElementById("bodyPart")
+let darkMode = document.getElementById("darkMode")
+
+let isLight = false
+
+darkMode.addEventListener("click", ()=>{
+  isLight = !isLight
+  if(isLight){
+      bodyPart.classList.remove("bg-black")
+      bodyPart.classList.add("bg-red-900")
+  }
+  else{
+    bodyPart.classList.remove("bg-red-900")
+    bodyPart.classList.add("bg-gray-800")
+  }
+  
+})
+//********************************* */ Withe Part End ************************************************
+
+
+
+
+
+// Back To top Part Start 
+
+let backTop = document.getElementById('backTop')
+//==== Back-to-top button
+
+window.addEventListener('scroll', function(){
+  if(window.scrollY > 600){
+    backTop.classList.remove('hidden')
+  }
+  else{
+    backTop.classList.add('hidden')
+  }
+})
+
+backTop.addEventListener('click', function(){
+  
+  window.scrollTo({
+    top: 0,
+    behavior : 'smooth' 
+  })
+})
+
+
+// Back To Top Part End
+
+
